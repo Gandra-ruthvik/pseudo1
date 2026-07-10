@@ -1,0 +1,198 @@
+/* *{
+    margin:auto;
+    /* padding: ; */
+    /* box-sizing: border-box; */
+/* } */ 
+.container{
+    height: 1000px;
+    width: 100vw;
+    border: 5px solid black;
+    padding-top:20px;
+    box-sizing: border-box;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+    background-color: azure;
+    
+  
+
+
+   
+}
+.child{
+    height: 400px;
+    width: 30vw;
+    border: 4px solid black;
+    box-sizing: border-box;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+    padding:20px;
+    background-color: antiquewhite;
+}
+.grandchilda{
+    height: 150px;
+    width:350px;
+    border:5px solid black;
+    overflow: hidden;
+    object-fit: contain;
+    background-color:aqua;
+    
+}
+.grandchildb{
+    height: 150px;
+    width:350px;
+    border:5px solid black;
+    overflow: hidden;
+    object-fit: contain;
+    background-color:aqua;
+    animation:forwards;
+}
+.grandchildc{
+    height: 150px;
+    width:350px;
+    border:5px solid black;
+    overflow: hidden;
+    object-fit: contain;
+    background-color:aqua
+}
+.grandchildd{
+    height: 150px;
+    width:350px;
+    border:5px solid black;
+    overflow: hidden;
+    object-fit: contain;
+    background-color:aqua
+}
+.grandchilde{
+    height: 150px;
+    width:350px;
+    border:5px solid black;
+    overflow: hidden;
+    object-fit: contain;
+    background-color:aqua
+}
+.grandchildf{
+    height: 150px;
+    width:350px;
+    border:5px solid black;
+    overflow: hidden;
+    object-fit: contain;
+    background-color:aqua
+}
+.grandchilda:hover{
+    transform:scale(1.1);
+}
+.grandchildb:hover{
+    transform:translateY(10px)
+}
+.grandchildc:hover{
+    transform:skew(20deg)
+}
+.grandchildd:hover{
+    transform:rotate(45deg)
+}
+.grandchilde:hover{
+    transform:translateX(10px)
+}
+.grandchildf:hover{
+    transform:scale(1.2);
+}
+
+/* .grandchild img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+} */
+
+.child4{
+    height: 475px;
+    width: 93vw;
+    border: 4px solid black;
+    box-sizing: border-box;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+    padding:20px;
+    background-color: antiquewhite;
+}
+
+.grandchild1{
+    height: 420px;
+    width:650px;
+    border:5px solid black;
+    overflow: hidden;
+    object-fit: contain;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+.grand1{
+    height: 350px;
+    width:250px;
+    border:5px solid black;
+    overflow: hidden;
+    object-fit: contain;
+    background-color:aqua;
+    
+}
+.grand2{
+    height: 350px;
+    width:250px;
+    border:5px solid black;
+    overflow: hidden;
+    object-fit: contain;
+    background-color:aqua;
+
+
+}
+
+.grand3{
+    height: 350px;
+    width:250px;
+    border:5px solid black;
+    overflow: hidden;
+    object-fit: contain;
+    background-color:aqua;
+    
+}
+.grand4{
+    height: 350px;
+    width:250px;
+    border:5px solid black;
+    overflow: hidden;
+    object-fit: contain;
+    background-color:aqua;
+    
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+
+.text1:hover{
+    transform:translateY(40px);
+}
+
+.img2:hover{
+    transform: scale(1.2);
+}
+
+.text2:hover{
+    transform:translatex(30px);
+}
+
+
+
+
+
